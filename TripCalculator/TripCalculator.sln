@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripCalculator", "TripCalculator\TripCalculator.csproj", "{EB8D1473-966A-43B4-8FC4-FA360DBC6116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripCalculatorBLL", "TripCalculatorBLL\TripCalculatorBLL.csproj", "{65C73433-C9A2-464D-81A9-DB9A6025221A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripCalculatorTest", "TripCalculatorTest\TripCalculatorTest.csproj", "{BB8A114C-A4F7-48B7-9D3B-FF8B2C2F05EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB44AB2B-EE7D-427C-96D7-658F154F0330}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		TripCalculator.vsmdi = TripCalculator.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TripCalculator.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB8D1473-966A-43B4-8FC4-FA360DBC6116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8D1473-966A-43B4-8FC4-FA360DBC6116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8D1473-966A-43B4-8FC4-FA360DBC6116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8D1473-966A-43B4-8FC4-FA360DBC6116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C73433-C9A2-464D-81A9-DB9A6025221A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C73433-C9A2-464D-81A9-DB9A6025221A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C73433-C9A2-464D-81A9-DB9A6025221A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C73433-C9A2-464D-81A9-DB9A6025221A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB8A114C-A4F7-48B7-9D3B-FF8B2C2F05EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB8A114C-A4F7-48B7-9D3B-FF8B2C2F05EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB8A114C-A4F7-48B7-9D3B-FF8B2C2F05EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB8A114C-A4F7-48B7-9D3B-FF8B2C2F05EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
