@@ -1,7 +1,7 @@
 ﻿using TripCalculatorBLL;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-
+using NUnit.Framework;
 namespace TripCalculatorTest
 {
     
@@ -10,7 +10,7 @@ namespace TripCalculatorTest
     ///This is a test class for DistanceCalculatorTest and is intended
     ///to contain all DistanceCalculatorTest Unit Tests
     ///</summary>
-    [TestClass()]
+    [TestFixture]
     public class DistanceCalculatorTest
     {
 
@@ -67,7 +67,7 @@ namespace TripCalculatorTest
         /// <summary>
         ///A test for CalculateDistance
         ///</summary>
-        [TestMethod()]
+        [Test()]
         public void CalculateDistanceTest()
         {
             DistanceCalculator target = new DistanceCalculator(); // TODO: Initialize to an appropriate value
