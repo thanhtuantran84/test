@@ -71,9 +71,9 @@ namespace TripCalculatorTest
         public void CalculateDistanceTest()
         {
             DistanceCalculator target = new DistanceCalculator(); // TODO: Initialize to an appropriate value
-            double time = 5; // TODO: Initialize to an appropriate value
+            double time = 15; // TODO: Initialize to an appropriate value
             double speed = 6; // TODO: Initialize to an appropriate value
-            double expected = 30; // TODO: Initialize to an appropriate value
+            double expected = 90; // TODO: Initialize to an appropriate value
             double actual;
             actual = target.CalculateDistance(time, speed);
             Assert.AreEqual(expected, actual);
